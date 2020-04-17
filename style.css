@@ -1,8 +1,26 @@
 @charset "utf-8";
 
+body {
+    background-color: bisque;
+    color: brown;
+}
 header {
 	width: 900px;
 	height: 70px;
 	margin: 20px auto 40px auto;
 	position: relative;
+}
+header h1 {
+    margin : 0;
+	position: absolute;
+  
+}
+#main {
+    margin: 20px auto 5px 400px;
+    position: absolute;
+}
+footer p {
+	margin-bottom: 0;
+	padding: 14px 0 14px 0;
+	text-align: center;
 }
